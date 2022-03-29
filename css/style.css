@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+p{margin: 0;
+	paddig: 0;
+	box-sizing:border-box;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+ html,
+body {hieght: 100%;
+	  width: 100%;
+	  background:#91BAE3
+}
+
+.container{
+	width: 800px;
+	margin: 0px auto;
+}
+
+.logo{
+	width: 250 px;
+	margin: 0px auto;
+	text-align: center;
+	margin-top:30px;
+	height: 120px;
+}
+.logo .caption{
+	float:left;font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";margin-left:10px;margin-top:40px;font-weight:bold;font-size:2.5em;color:#193E64
+}
+
+.ff{
+  float:right;
+}
+
+.nav{
+	margin:0px auto;height:30px;width:800px;background: #D9A9AA
+}
+
+.fzd{
+	float:left;
+	list-style:circle;
+	width: 150px;
+	height: 30px;
+	text-align:center;
+	margin-right:10px;
+	line-height: 30px;
+	color: aliceblue;
+	cursor:pointer
+}
+
+.fzd:hover{
+	color:#4470A5;
+	font-weight:bold;
+	background:#B980C9
+}
+
+.fzd .on{
+	font-weight:bold;
+	background:#5C7A98
+}
+
+.content .lza{
+  	width:500px;
+  	height:600px;
+  	float:left;
+  	background:#FFF9C1;
+  
+  	display:inline-block
+}
+
+.content .lza img{
+  width:400px;
+}
+
+.content .zz{
+  width:300px;
+  height:600px;
+  background:white;
+  float:right;
+  overflow:hidden;
+}
+
+footer{
+  width:800px;
+  margin-top:20px;
+  text-align:left;
+  background:#BB9DDB;
+  color:white;
+  height:80px;
+  display:inline-block
+}
+
+footer p{
+	font-size:20px;
+}
